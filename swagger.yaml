@@ -1,0 +1,306 @@
+swagger: "2.0"
+info:
+  description: "This is a sample server Petstore server.  You can find out more about     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For this sample, you can use the api key `special-key` to test the authorization     filters."
+  version: "1.0.0"
+  title: "Swagger Monapp"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "diakhate@swagger.io"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "petstore.swagger.io"
+basePath: "/https://monmenu.2v360.com"
+tags:
+- name: "Eva"
+  description: "Everything about your Pets"
+  externalDocs:
+    description: "Find out more"
+    url: "http://swagger.io"
+- name: "store"
+  description: "Access to Petstore orders"
+- name: "user"
+  description: "Operations about user"
+  externalDocs:
+    description: "Find out more about our store"
+    url: "http://swagger.io"
+schemes:
+- "https"
+- "http"
+
+produces:
+- "application/xml"
+- "application/json"
+
+
+paths:
+
+  /users:
+    get:
+      tags:
+      - "users"
+      description: "return all users"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+     
+  /restaurants:
+    get:
+      tags:
+      - "restaurants"
+      description: "return all restaurants"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /restaurants_simple:
+    get:
+      tags:
+      - "restaurants_simple"
+      description: "return all restaurants_simple"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+     
+  /evenement:
+    get:
+      tags:
+      - "evenement"
+      description: "return all evenement"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /favoris:
+    get:
+      tags:
+      - "favoris"
+      description: "return all favoris"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /horaires:
+    get:
+      tags:
+      - "horaires"
+      description: "return all horaires"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /plats:
+    get:
+      tags:
+      - "plats"
+      description: "return all plats"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /positions:
+    get:
+      tags:
+      - "positions"
+      description: "return all positions"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /quartiers:
+    get:
+      tags:
+      - "quartiers"
+      description: "return all quartiers"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /commandes:
+    get:
+      tags:
+      - "commandes"
+      description: "return all commandes"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /categories:
+    get:
+      tags:
+      - "categories"
+      description: "return all categories"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /categories_simpl:
+    get:
+      tags:
+      - "categories_simpl"
+      description: "return all categories_simpl"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /publicites:
+    get:
+      tags:
+      - "publicites"
+      description: "return all publicites"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /cuisiness:
+    get:
+      tags:
+      - "cuisines"
+      description: "return all cuisines"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /jours:
+    get:
+      tags:
+      - "jours"
+      description: "return all jours"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /clients:
+    get:
+      tags:
+      - "clients"
+      description: "return all clients"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /commande_plat:
+    get:
+      tags:
+      - "commande_plat"
+      description: "return all commande_plat"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /commande_plat_info:
+    get:
+      tags:
+      - "commande_plat_info"
+      description: "return all commande_plat_infot"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /prix_livraison:
+    get:
+      tags:
+      - "prix_livraison"
+      description: "return all prix_livraison"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /prix_livraison_info:
+    get:
+      tags:
+      - "prix_livraison_info"
+      description: "return all prix_livraison_info"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+  /commande_repas_plat:
+    get:
+      tags:
+      - "commande_repas_plat"
+      description: "return all commande_repas_plat"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+          
+          
+  /ressource/v1/devices:
+    get:
+      tags:
+      - "devices"
+      description: "return all devices"
+      responses:
+        200:
+          description: "successful operation"
+         
+        400:
+          description: "Invalid status value"
+    
+     
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"
